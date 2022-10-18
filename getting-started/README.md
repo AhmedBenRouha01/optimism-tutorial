@@ -32,6 +32,10 @@ If you need ETH on Optimism Goerli for testing purposes, [you can use this fauce
 
 The tests examples below all use Optimism Goerli.
 
+### Bridging faucets 
+
+You can also transfer faucets from Goerli test network to Optimism Goerli using this [link](https://app.optimism.io/bridge/deposit).
+
 
 ## Interacting with Optimism contracts
 
@@ -59,6 +63,9 @@ To get ETH on an address in the Bedrock alpha network:
 ## Hardhat
 
 In [Hardhat](https://hardhat.org/) you use a configuration similar to [this one](https://github.com/ethereum-optimism/optimism-tutorial/tree/main/getting-started/hardhat).
+
+**Note**
+If it's your first time using hardhat you may run to an issue when trying to compile the smart contracts depending on you npm and hardhat versions due to some missing dependencies. If it is the case this check this [link](https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-toolbox).
 
 ### Connecting to Optimism
 
@@ -541,6 +548,9 @@ The tutorial makes these assumptions:
 ### Compatibility with other tools
 
 Note that in the tutorial we've been compiling smart contracts using [Waffle](https://github.com/TrueFiEng/Waffle). If you prefer to compile your smart contracts using other tools (like [Hardhat](https://hardhat.org/)) you can install the appropriate packages and modify `build` script in the `package.json` file.
+
+### Etherscan 
+Optimism provide the Goerli-Optimism [etherscan](https://goerli-optimism.etherscan.io/) that you can use to display you transactions details.  
 
 ## Best practices
 
